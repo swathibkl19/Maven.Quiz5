@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * @author leon on 18/12/2018.
  */
-public class Group<T> implements Iterable<T>, GroupInterface<T> {
+public class Group<T> implements  GroupInterface<T> {
 
     List<T> list;
 
@@ -46,6 +46,7 @@ public class Group<T> implements Iterable<T>, GroupInterface<T> {
     public Integer indexOf(T value) {
         return list.indexOf(value);
     }
+
 
     @Override
     public String toString() {
