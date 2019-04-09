@@ -57,7 +57,7 @@ public class GetCommonSubstringsTest {
 
     private void test(String firstInput, String secondInput, String[] expected) {
         // when
-        String[] actual = new StringEvaluatorObject(firstInput).getCommonSubstrings(secondInput);
+        String[] actual = new StringEvaluatorObject(firstInput).getCommonSubstrings(firstInput, secondInput);
 
         // then
         TestUtils.assertArrayEquals(expected, actual);

@@ -51,7 +51,7 @@ public class GetLargestCommonSubstringTest {
 
     private void test(String firstInput, String secondInput, String expected) {
         // when
-        String actual = new StringEvaluatorObject(firstInput).getLargestCommonSubstring(secondInput);
+        String actual = new StringEvaluatorObject(firstInput).getLargestCommonSubstring(firstInput,secondInput);
 
         // then
         Assert.assertEquals(expected, actual);
