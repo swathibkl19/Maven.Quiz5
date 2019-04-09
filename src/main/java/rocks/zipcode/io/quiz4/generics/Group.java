@@ -5,12 +5,13 @@ import java.util.*;
 /**
  * @author leon on 18/12/2018.
  */
-public class Group<T> implements Iterable<T>,GroupInterface<T>  {
+public class Group<T> implements Iterable<T>, GroupInterface<T> {
 
     List<T> list;
+
     public Group() {
         //throw new UnsupportedOperationException("Method not yet implemented");
-    list = new ArrayList<>();
+        list = new ArrayList<>();
     }
 
 
@@ -41,7 +42,8 @@ public class Group<T> implements Iterable<T>,GroupInterface<T>  {
     public Iterator<T> iterator() {
         return list.iterator();
     }
-    public Integer indexOf(T value){
+
+    public Integer indexOf(T value) {
         return list.indexOf(value);
     }
 

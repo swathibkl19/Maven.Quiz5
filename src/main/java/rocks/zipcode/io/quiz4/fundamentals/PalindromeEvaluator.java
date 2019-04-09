@@ -16,7 +16,8 @@ public class PalindromeEvaluator {
                 list.add(list1.get(i));
 
             }
-        }        return list.toArray(new String[0]);
+        }
+        return list.toArray(new String[0]);
     }
 
     public static Boolean isPalindrome(String string) {

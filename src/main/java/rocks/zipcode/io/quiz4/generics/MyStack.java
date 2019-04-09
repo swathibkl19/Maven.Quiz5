@@ -7,9 +7,9 @@ import java.util.Stack;
 /**
  * @author leon on 11/12/2018.
  */
-public class MyStack<T> implements Iterable<T>{
+public class MyStack<T> implements Iterable<T> {
 
-    private  Stack<T> myStack ;
+    private Stack<T> myStack;
 
     public MyStack() {
         //throw new UnsupportedOperationException("Method not yet implemented");
@@ -71,7 +71,7 @@ public class MyStack<T> implements Iterable<T>{
     }
 
     public T peek() {
-        if(myStack.isEmpty()){
+        if (myStack.isEmpty()) {
             return null;
         }
 

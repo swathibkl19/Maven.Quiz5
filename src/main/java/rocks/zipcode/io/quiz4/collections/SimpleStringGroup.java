@@ -7,13 +7,11 @@ import java.util.*;
  */
 public class SimpleStringGroup implements Iterable<String> {
 
-  List<String> list ;
-
+    List<String> list;
 
 
     public SimpleStringGroup() {
         this.list = new ArrayList<>();
-        //if(list.)
         //throw new UnsupportedOperationException("Method not yet implemented");
     }
 

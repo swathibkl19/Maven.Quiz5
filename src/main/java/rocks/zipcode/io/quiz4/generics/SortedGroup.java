@@ -7,15 +7,16 @@ import java.util.List;
  */
 public class SortedGroup<T> extends Group<T> implements GroupInterface<T> {
 
-    //List<T> list;
+
     @Override
     public void insert(T value) {
+
         super.insert(value);
     }
 
     @Override
     public void delete(T value) {
-    super.delete(value);
+        super.delete(value);
     }
 
     public Integer indexOf(T value) {

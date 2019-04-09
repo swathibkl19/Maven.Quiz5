@@ -10,21 +10,22 @@ public class PalindromeObject {
     String input;
 
     public PalindromeObject() {
-        this.input ="";
+        this.input = "";
     }
 
     public PalindromeObject(String input) {
         this.input = input;
     }
-        public String[] getAllPalindromes () {
-            return PalindromeEvaluator.getAllPalindromes(input);
-        }
 
-        public Boolean isPalindrome () {
-            return PalindromeEvaluator.isPalindrome(input);
-        }
-
-        public String reverseString () {
-            return PalindromeEvaluator.reverseString(input);
-        }
+    public String[] getAllPalindromes() {
+        return PalindromeEvaluator.getAllPalindromes(input);
     }
+
+    public Boolean isPalindrome() {
+        return PalindromeEvaluator.isPalindrome(input);
+    }
+
+    public String reverseString() {
+        return PalindromeEvaluator.reverseString(input);
+    }
+}

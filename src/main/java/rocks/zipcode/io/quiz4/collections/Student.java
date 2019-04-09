@@ -7,7 +7,7 @@ import java.util.Objects;
  */
 public class Student {
     private Integer id;
-    private Double totalStudytime ;
+    private Double totalStudytime;
 
     public Student() {
 
@@ -16,11 +16,11 @@ public class Student {
 
     public Student(Integer id) {
         this.id = id;
-        this.totalStudytime= 0.0;
+        this.totalStudytime = 0.0;
     }
 
     public void learn(Double amountOfHours) {
-        this.totalStudytime =amountOfHours + totalStudytime;
+        this.totalStudytime = amountOfHours + totalStudytime;
 
     }
 

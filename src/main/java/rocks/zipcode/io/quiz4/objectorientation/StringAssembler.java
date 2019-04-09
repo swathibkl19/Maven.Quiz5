@@ -13,15 +13,15 @@ public class StringAssembler {
     private Character delimiter;
 
     public StringAssembler(Character delimeter) {
-        list= new ArrayList<>();
+        list = new ArrayList<>();
         this.delimiter = delimeter;
     }
 
     public StringAssembler append(String str) {
         for (char c : str.toCharArray()) {
-           // System.out.println(str.toCharArray());
+            // System.out.println(str.toCharArray());
             list.add(c);
-           // System.out.println(list);
+            // System.out.println(list);
         }
         list.add(delimiter);
         System.out.println(delimiter);
@@ -35,6 +35,6 @@ public class StringAssembler {
                 .stream()
                 .map(String::valueOf)
                 .collect(Collectors.joining());
-        return result.substring(0, result.length()-1);
+        return result.substring(0, result.length() - 1);
     }
 }

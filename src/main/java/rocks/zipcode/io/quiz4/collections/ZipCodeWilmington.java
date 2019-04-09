@@ -3,7 +3,6 @@ package rocks.zipcode.io.quiz4.collections;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 /**
@@ -28,6 +27,6 @@ public class ZipCodeWilmington {
     public Map<Student, Double> getStudyMap() {
         return list
                 .stream()
-                .collect(Collectors.toMap(student -> student , s->s.getTotalStudyTime()));
+                .collect(Collectors.toMap(student -> student, s -> s.getTotalStudyTime()));
     }
 }

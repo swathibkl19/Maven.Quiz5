@@ -9,7 +9,6 @@ import rocks.zipcode.io.quiz4.fundamentals.StringEvaluator;
 public class StringEvaluatorObject {
 
 
-
     String input;
 
     public StringEvaluatorObject(String str) {
@@ -19,21 +18,21 @@ public class StringEvaluatorObject {
 
     public StringEvaluatorObject() {
 
-        this.input ="";
+        this.input = "";
 
     }
 
     public String[] getAllSubstrings() {
 
-        return  StringEvaluator.getAllSubstrings(input);
+        return StringEvaluator.getAllSubstrings(input);
     }
 
-    public String[] getCommonSubstrings(String firstInput , String secondInput) {
+    public String[] getCommonSubstrings(String firstInput, String secondInput) {
 
-        return StringEvaluator.getCommonSubstrings(firstInput,secondInput);
+        return StringEvaluator.getCommonSubstrings(firstInput, secondInput);
     }
 
-    public String getLargestCommonSubstring(String firstInput ,String secondInput) {
+    public String getLargestCommonSubstring(String firstInput, String secondInput) {
 
         return StringEvaluator.getLargestCommonSubstring(firstInput, secondInput).toString();
     }
